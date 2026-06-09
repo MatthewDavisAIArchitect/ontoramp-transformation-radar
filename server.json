@@ -1,0 +1,21 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.ontoramp/transformation-radar",
+  "title": "OntoRamp Transformation Radar",
+  "description": "Transformation readiness gaps and initiative risk signals for AI agents and enterprise change leads.",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ontoramp-transformation-radar.fly.dev/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Bearer API key. Get your free key at ontoramp.com/mcp",
+          "isRequired": true,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}
