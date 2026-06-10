@@ -67,7 +67,7 @@ When `get_maturity_gap` returns a primary-domain score below threshold, the serv
 
 ## Security
 
-- All responses are SO-24 audited — no scoring-formula internals, no canonical domain-weight constants
+- All responses are audited for public release — no scoring-formula internals, no internal domain-weight constants
 - Your data is scoped to your tenant namespace and never shared across organizations
 - Free-tier keys are read-scoped; Developer/Org keys require account authentication
 - `GET /health` returns live status
@@ -80,4 +80,4 @@ When `get_maturity_gap` returns a primary-domain score below threshold, the serv
 
 ---
 
-*Governed by the Davis Canon — SSOT. OntoRamp LLC · [ontoramp.com](https://ontoramp.com)*
+*Governed by OntoRamp Governance Physics. OntoRamp LLC · [ontoramp.com](https://ontoramp.com)*
